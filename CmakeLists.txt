@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.0)
+
+project(Linux_debugger)
+
+add_compile_options(-std=c++14)
+
+add_executable(Linux_debugger
+                src/main.cpp)
